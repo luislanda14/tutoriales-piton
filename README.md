@@ -1,2 +1,2 @@
 # tutoriales-piton
-En este repositorio aprenderemos las maravillas de Python
+Que no seas cotilla
