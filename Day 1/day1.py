@@ -1,6 +1,6 @@
 # Day 1
 
-with open("Day 1\data.txt") as datos:
+with open("Day 1/data.txt") as datos:
     guardaSuma = []
     suma = 0
     num = 0
