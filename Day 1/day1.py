@@ -1,4 +1,4 @@
-'''Advent Calendar'''
+# Day 1
 
 with open('C:\Coding\Advent Calendar\datos.txt') as datos:
     guardaSuma = []
