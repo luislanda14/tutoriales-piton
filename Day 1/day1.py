@@ -1,6 +1,6 @@
 # Day 1
 
-with open('C:\Coding\Advent Calendar\datos.txt') as datos:
+with open("Day 1\data.txt") as datos:
     guardaSuma = []
     suma = 0
     num = 0
@@ -26,3 +26,6 @@ with open('C:\Coding\Advent Calendar\datos.txt') as datos:
         sumaTotal = sumaTotal + guardaSuma[len(guardaSuma)-i]
 
     print(f"The top 3 carries {sumaTotal} calories.")
+
+#The elf 123 carries 72478 calories.
+#The top 3 carries 210367 calories.
