@@ -13,3 +13,5 @@ with open('input.txt') as f:
 listasumas.sort(reverse=True)
 suma3mayores = listasumas[0] + listasumas[1] + listasumas[2]
 print(suma3mayores)
+
+# 204837

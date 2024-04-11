@@ -12,3 +12,5 @@ with open('input.txt') as f:
         listasumas.append(suma)
     max_valor = max(listasumas)
     print(max_valor)
+
+    # 68442
