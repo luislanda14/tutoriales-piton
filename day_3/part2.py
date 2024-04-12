@@ -7,7 +7,6 @@ combined_dict = {**lowercase_dict, **uppercase_dict}
 
 with open('input.txt') as f:
     lines = f.readlines()
-    # divide the lines in groups of 3
     groups = [lines[i:i + 3] for i in range(0, len(lines), 3)]
     suma = 0
     for group in groups:
