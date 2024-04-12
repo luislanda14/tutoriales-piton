@@ -7,9 +7,8 @@ with open('imput.txt') as f:
         if '\n' in x[0:2]:
             a.append("/")
         else:
-            print(x)
+           
             a.append(int(x[:-1]))
-    print(a)
     for x in a:
         if x != "/":
             b=x+b
