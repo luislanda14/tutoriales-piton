@@ -1,4 +1,4 @@
-with open('input.txt') as f:
+with open('test.txt') as f:
     line = f.readlines()
     listfirstpart = []
     totalrepetidos = 0
