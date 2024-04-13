@@ -5,4 +5,5 @@ TODOS A CURRAR!!!
 
 Dia 1: HECHO
 Dia 2: hechooo
-Dia 3: hoy, tick tack
+Dia 3: finiquitao
+Dia 4: todos a currar
