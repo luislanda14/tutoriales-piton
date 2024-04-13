@@ -1,7 +1,7 @@
-with open('test.txt') as f:
+with open('input.txt') as f:
     line = f.readlines()
     listfirstpart = []
-    totalrepetidos = 0
+    repetidos = 0
     for pareja in line:
         listpairs = list(pareja)
         i = 0
@@ -34,19 +34,11 @@ with open('test.txt') as f:
         lista2 = []
         for num in range(int(primernum), int(segundonum) + 1):
             lista2.append(num)
-        print(lista1)
-        print(lista2)
-        repetido1 = 0
-        for numero in lista1:
-            if numero in lista2:
-                repetido1 = repetido1 + 1
-        if repetido1 == len(lista2):
-            totalrepetidos = totalrepetidos + 1
+        
+        if int(lista1[0]) <= int(lista2[0]) and int(lista1[-1]) >= int(lista2[-1]):
+            repetidos = repetidos + 1
+        elif int(lista2[0]) <= int(lista1[0]) and int(lista2[-1]) >= int(lista1[-1]):
+            repetidos = repetidos + 1
+    print(repetidos)
 
-        repetido2 = 0
-        for numero in lista2:
-            if numero in lista1:
-                repetido2 = repetido2 + 1
-        if repetido2 == len(lista1):
-            totalrepetidos = totalrepetidos + 1
-        print(totalrepetidos)
+# 456
