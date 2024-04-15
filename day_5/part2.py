@@ -16,14 +16,11 @@ with open('input.txt') as f:
         quantity = ints_only[0]
         from_stack = ints_only[1]-1
         to_stack = ints_only[2]-1
-        if quantity == 1:
-            stacks[to_stack].append(stacks[from_stack].pop())
-        else:
-            aux = []
-            for i in range(quantity):
-                aux.append(stacks[from_stack].pop())
-            for element in reversed(aux):
-                stacks[to_stack].append(element)
+        aux = []
+        for i in range(quantity):
+            aux.append(stacks[from_stack].pop())
+        for element in reversed(aux):
+            stacks[to_stack].append(element)
             
     solution = ''
     for stack in stacks:
