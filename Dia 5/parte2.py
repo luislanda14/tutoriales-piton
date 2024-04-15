@@ -37,19 +37,16 @@ with open('input.txt') as f:
         n = lista_mov[1]
         de = lista_mov[3]
         a = lista_mov[5]
+        listas_cambios = []
         for _ in range(int(n)):
             elem = listas_verticales[int(de) - 1].pop()
-            listas_verticales[int(a) -1].append(elem)
+            listas_cambios.append(elem)
+        listas_cambios.reverse()
+        for change in listas_cambios:
+            listas_verticales[int(a) - 1].append(change)
     for n in numeros:
         resultn = listas_verticales[int(n) - 1].pop()
         resultfinal.append(resultn)
     print(''.join(resultfinal))
 
-    # HNSNMTLHQ
-    
-    
-        
-       
-
-    
-            
+# RNLFDJMCT
